@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product_stat.css">
+    <title>Product Status</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Product Status</h2>
+        <div class="navigation">
+            <button id="logout-button">Logout</button>
+        </div>
+        <table class="product-status-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Status</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Product status data goes here -->
+                <tr>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>123 Main St, City</td>
+                    <td>Active</td>
+                    <td><button class="update-button">Update</button></td>
+                    <td><button class="delete-button">Delete</button></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+        <button id="update-button">Update</button>
+    </div>
+    <script src="product_stat.js"></script>
+</body>
+</html>

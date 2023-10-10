@@ -1,0 +1,34 @@
+/* Reset default margin and padding */
+body, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+    color: #333;
+}
+
+/* Style the buttons */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

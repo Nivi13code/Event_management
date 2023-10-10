@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttons.css">
+    <title>User Selection Page</title>
+</head>
+<body>
+    <h1>Select User Type</h1>
+    <button id="admin-button">Admin</button>
+    <button id="vendor-button">Vendor</button>
+    <button id="user-button">User</button>
+
+    <script>
+        // Get references to the buttons by their IDs
+        const adminButton = document.getElementById('admin-button');
+        const vendorButton = document.getElementById('vendor-button');
+        const userButton = document.getElementById('user-button');
+
+        // Add click event listeners to the buttons
+        adminButton.addEventListener('click', function () {
+            // Redirect to the admin page when the Admin button is clicked
+            window.location.href = 'admin_signup.html'; // Replace with the admin page URL
+        });
+
+        vendorButton.addEventListener('click', function () {
+            // Redirect to the vendor page when the Vendor button is clicked
+            window.location.href = 'vendor_login.html'; // Replace with the vendor page URL
+        });
+
+        userButton.addEventListener('click', function () {
+            // Redirect to the user page when the User button is clicked
+            window.location.href = 'index.html'; // Replace with the user page URL
+        });
+    </script>
+</body>
+</html>

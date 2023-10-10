@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Shopping Cart</h2>
+            <div class="navigation">
+                <button id="home-button">Home</button>
+                <button id="logout-button">Logout</button>
+                <button id="product-status-button">Product Status</button>
+                <button id="requestitembutton">Request Item</button>
+                <button id="view-product-button">View Product</button>
+            </div>
+            <div class="grand-total">
+                <strong>Grand Total:</strong> <span id="grand-total">$0</span>
+            </div>
+            
+            
+        </div>
+        <!-- Add this button inside your container div, below the cart table -->
+          <div class="proceed-to-checkout">
+            <button id="checkoutButton">Proceed to Checkout</button>
+          </div>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Product Quantity</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Add cart items dynamically here using JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
